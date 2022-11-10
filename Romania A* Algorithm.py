@@ -116,7 +116,6 @@ def drawMap(city, astar, graph):
     plt.show()
 
 
-# pencarian rute
 def main():
     heuristic = getHeuristics()
     graph = createGraph()
